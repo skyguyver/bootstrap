@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/my.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Homepage, simple as that</h1>
+  <!-- <p>Resize this responsive page to see the effect!</p>  -->
+</div>
+  
+<div class="container">
+  <div class="row">
+    <!-- <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div> -->
+
+  <table class="table table-sm table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Environment</th>
+      <th scope="col">Host</th>
+      <th scope="col">Port</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='clickable-row' data-href='http://192.168.0.30:8869'>
+      <th scope="row">1</th>
+      <td>DEV</td>
+      <td>192.168.0.30</td>
+      <td>8869</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.141:8069'>
+      <th scope="row">2</th>
+      <td>SIT1</td>
+      <td>172.18.6.141</td>
+      <td>8069</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.241:8069'>
+      <th scope="row">3</th>
+      <td>SIT2</td>
+      <td>172.18.6.241</td>
+      <td>8069</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.164:8069'>
+      <th scope="row">4</th>
+      <td>UAT1</td>
+      <td>172.18.6.164</td>
+      <td>8069</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.180:8069'>
+      <th scope="row">5</th>
+      <td>UAT2</td>
+      <td>172.18.6.180</td>
+      <td>8069</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.164:8033'>
+      <th scope="row">6</th>
+      <td>N2N</td>
+      <td>172.18.6.164</td>
+      <td>8033</td>
+    </tr>
+    <tr class='clickable-row' data-href='http://172.18.6.164:8044'>
+      <th scope="row">7</th>
+      <td>N2N V1</td>
+      <td>172.18.6.164</td>
+      <td>8044</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+</body>
+</html>
